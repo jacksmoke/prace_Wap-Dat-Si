@@ -1,0 +1,58 @@
+body 
+{                
+    font-family: Calibri; 
+    background: url("body.png");
+    margin: 0 0 0 0;
+    height: 100%;
+    margin: -30px;
+}
+header
+{
+    background: url("background.png"); 
+}
+head
+{
+    margin: -30px;
+}
+table 
+{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+div 
+{
+    text-align: left;
+    position: fixed;
+    margin-top: 40px;
+    padding: 30px;
+}
+form
+{
+    position: fixed;
+    padding: 35px;
+    color: white;
+}
+li {
+    display: block;
+    float: left;
+    margin: 30px;
+}
+
+li a {
+    display: block;
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+li a:hover {
+    font-size: 14px;
+    color: #000000;
+}
